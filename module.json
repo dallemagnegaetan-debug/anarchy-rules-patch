@@ -1,8 +1,8 @@
 {
   "id": "anarchy-rules-patch",
   "title": "ANARCHY // RULES PATCH",
-  "description": "Activation exclusive des armures et gestion des consommables temporaires.",
-  "version": "0.2.0",
+  "description": "Correctif sra2 : activation exclusive des armures principales. Aucun automatisme de consommables.",
+  "version": "0.2.1",
   "authors": [
     {
       "name": "Anarchy 2.0 - adaptation Foundry"
@@ -13,8 +13,7 @@
     "verified": "14"
   },
   "esmodules": [
-    "scripts/armor.js",
-    "scripts/consumables.js"
+    "scripts/armor.js"
   ],
   "relationships": {
     "systems": [
@@ -26,5 +25,5 @@
   },
   "url": "https://github.com/dallemagnegaetan-debug/anarchy-rules-patch",
   "manifest": "https://raw.githubusercontent.com/dallemagnegaetan-debug/anarchy-rules-patch/main/module.json",
-  "download": "https://raw.githubusercontent.com/dallemagnegaetan-debug/anarchy-rules-patch/main/dist/anarchy-rules-patch-v0.2.0.zip"
+  "download": "https://raw.githubusercontent.com/dallemagnegaetan-debug/anarchy-rules-patch/main/dist/anarchy-rules-patch-v0.2.1.zip"
 }
