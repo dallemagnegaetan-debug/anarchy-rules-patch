@@ -1,8 +1,8 @@
 {
   "id": "anarchy-rules-patch",
   "title": "ANARCHY // RULES PATCH",
-  "description": "Corrige les armures principales de Shadowrun Anarchy 2.0 : activer une armure principale desactive les autres du meme personnage.",
-  "version": "0.1.0",
+  "description": "Activation exclusive des armures et gestion des consommables temporaires.",
+  "version": "0.2.0",
   "authors": [
     {
       "name": "Anarchy 2.0 - adaptation Foundry"
@@ -13,7 +13,8 @@
     "verified": "14"
   },
   "esmodules": [
-    "scripts/armor.js"
+    "scripts/armor.js",
+    "scripts/consumables.js"
   ],
   "relationships": {
     "systems": [
@@ -25,5 +26,5 @@
   },
   "url": "https://github.com/dallemagnegaetan-debug/anarchy-rules-patch",
   "manifest": "https://raw.githubusercontent.com/dallemagnegaetan-debug/anarchy-rules-patch/main/module.json",
-  "download": "https://raw.githubusercontent.com/dallemagnegaetan-debug/anarchy-rules-patch/main/dist/anarchy-rules-patch-v0.1.0.zip"
+  "download": "https://raw.githubusercontent.com/dallemagnegaetan-debug/anarchy-rules-patch/main/dist/anarchy-rules-patch-v0.2.0.zip"
 }
